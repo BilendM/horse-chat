@@ -1,4 +1,4 @@
-import AddAvatar from '../assets/AddAvatar.png'
+import AddAvatar from '../assets/addAvatar.png'
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore"; 
